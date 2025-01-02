@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #d9acee;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(222, 217, 223, 0.1);
+}
+
+form h2 {
+    margin-bottom: 15px;
+    color: #5c2d60;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5e2d60;
+}
+
+input, textarea, .card-types {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #926cb5;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+.card-types {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-types label {
+    width: auto;
+    margin: 0;
+}
+
+button.buy-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button.buy-button:hover {
+    background-color: #c56565;
+}
